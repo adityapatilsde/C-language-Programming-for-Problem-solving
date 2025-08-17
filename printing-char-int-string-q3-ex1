@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    int myNum;
+    char myChar;
+    char myStr[50]; // String with max 50 characters
+    
+    printf("Type a number, a character, and a word (string): \n");
+    scanf("%d %c %s", &myNum, &myChar, myStr); 
+    // %d → integer, %c → character, %s → string (single word)
+
+    printf("Your number is: %d\n", myNum);
+    printf("Your character is: %c\n", myChar);
+    printf("Your string is: %s\n", myStr);
+
+    return 0;
+}
