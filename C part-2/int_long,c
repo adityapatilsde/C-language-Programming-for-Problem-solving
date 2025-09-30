@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int age , height;
+    age= 25 , height= 168 ;
+    long contact , pin;
+    contact= 9876543210 , pin= 111111;
+    
+    printf("Age: %d\n",age);
+    printf("Height: %d\n",height);
+    printf("Contact Number: %ld\n",contact);
+    printf("PIN code: %ld",pin);
+    
+    
+    return 0;
+}
