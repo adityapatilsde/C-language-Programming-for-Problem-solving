@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    int basePoints = 20;
+    int bonus = 5;
+    int totalPoints;
+
+    // Your task: Fill in the correct expression to include post-increment
+    totalPoints = basePoints+bonus;
+
+    printf("Total Points: %d\n", totalPoints);
+    printf("Final Bonus: %d\n", ++bonus);
+
+    return 0;
+}
