@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() {
+    int marks;
+    scanf("%d",&marks);
+    
+    if ((marks >= 0) && (marks <=100)) {
+      if (marks>=40) {
+        if (marks>=75) {
+          printf("Passed with Distinction\n");
+        } else {
+          printf("Passed\n");
+        }
+        } else {
+          printf("Failed\n");
+        }
+        } else {
+          printf("Invalid marks entered!\n");
+        }
+        
+      
+    
+    return 0;
+}

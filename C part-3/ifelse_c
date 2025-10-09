@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+  int level ;
+  scanf("%d\n",&level);
+  if (level>=85) {
+    printf("Water Status:Highly Polluted\n");
+  } else if (level>=70) {
+    printf("Water Status:Moderately Polluted\n");
+  } else {
+    printf("Water Status:Clean");
+  }
+    
+    return 0;  
+}

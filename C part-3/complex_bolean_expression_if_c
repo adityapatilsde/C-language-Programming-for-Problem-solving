@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    int year = 2000;  // Fixed input
+
+    // Checking leap year condition using complex Boolean expression
+    if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
+        if (year % 100 == 0)
+            printf("The year %d is a leap year and divisible by 100.\n", year);
+        else
+            printf("The year %d is a leap year.\n", year);
+    } else {
+        printf("The year %d is not a leap year.\n", year);
+    }
+
+    return 0;
+}

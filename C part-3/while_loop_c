@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+    int num;
+
+  //  printf("Enter numbers (enter 0 to stop):\n");
+    scanf("%d", &num);  // Take first input
+
+    while (num != 0) {  // Loop until user enters 0
+        if (num % 2 == 0) {
+            printf("%d is EVEN.\n", num);
+        } 
+        else {
+            printf("%d is ODD.\n", num);
+        }
+
+        scanf("%d", &num);  // Take next input
+    }
+
+    printf("Program ended.\n");
+    return 0;
+}

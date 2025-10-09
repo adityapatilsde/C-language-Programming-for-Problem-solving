@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+   int hour ;
+   scanf("%d",&hour);
+   
+   if ((hour>=6) && (hour<10)) {
+     printf("Suggested Meal:Breakfast\n");
+   } else if ((hour>=12) && (hour<15)) {
+     printf("Suggested Meal: Lunch\n");
+   } else if ((hour>=19) && (hour<21)) {
+     printf("Suggested Meal: Dinner\n");
+   } else {
+     printf("Suggested Meal: Snack or Rest Time\n");
+   }
+   
+    return 0; 
+}

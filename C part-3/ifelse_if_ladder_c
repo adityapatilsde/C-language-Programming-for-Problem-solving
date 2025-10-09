@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    int temperature = 28;  // Temperature value in Celsius
+
+    // Using if-else-if ladder to categorize the temperature
+    if (temperature >= 40) {
+        printf("Very Hot\n");
+    } else if (temperature >= 30) {
+        printf("Hot\n");
+    } else if (temperature >= 20) {
+        printf("Warm\n");
+    } else if (temperature >= 10) {
+        printf("Cool\n");
+    } else {
+        printf("Cold\n");
+    }
+
+    return 0;
+}
