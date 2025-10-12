@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int counter = 3;  // Initialize counter to 3 for a 3-second countdown
+
+    // Backward counter loop using while loop
+    while (counter >= 1) {
+        printf("Countdown: %d second%s left\n", counter, (counter > 1) ? "s" : "");  // Print countdown
+        counter--;  // Decrease the counter by 1
+    }
+
+    return 0;
+}
