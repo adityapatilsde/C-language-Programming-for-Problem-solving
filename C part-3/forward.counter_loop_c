@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() {
+    int n;
+    int stair = 1;  // Start from stair number 1
+
+    // Ask the user for the total number of stairs
+    scanf("%d",&n);
+
+    // Count stairs using a while loop
+    while (stair<=n) {
+        printf("Climbed stair number: %d\n", stair);
+
+        // Print checkpoint message for every 3rd stair
+        if (stair %3==0) {
+            printf("Checkpoint reached!\n");
+        }
+
+         // Increment stair counter
+         stair++;
+    }
+
+    return 0;
+}

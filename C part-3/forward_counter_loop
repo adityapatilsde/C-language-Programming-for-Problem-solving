@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int counter = 1;  // Initialize counter to 1
+
+    // Forward counter loop using while loop, until counter reaches 5
+    while (counter <= 5) {
+        printf("Counter: %d\n", counter);
+        counter++;  // Increment the counter
+    }
+
+    return 0;
+}

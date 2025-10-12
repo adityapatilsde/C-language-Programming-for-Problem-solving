@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int number = 3;
+
+    while (number > 0) {
+        printf("Current count: %d\n", number);
+    }
+
+    printf("Loop ended!\n");
+
+    return 0;
+}
