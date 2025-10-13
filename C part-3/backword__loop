@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int n;
+
+    // Get the user input
+    scanf("%d", &n);
+
+    // Set up the while loop to print from n to 1
+    while (n>0) { 
+        printf("Countdown: %d\n", n);
+        n--;
+    }
+
+    return 0;
+}
