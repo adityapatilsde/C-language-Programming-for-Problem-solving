@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main () {
+  int num ;
+  scanf("%d\n",&num);
+  while (num != 0) {
+  if (num %2 == 0) {
+    printf("%d is EVEN.\n",num);
+  } else {
+    printf("%d is ODD.\n");
+  } scanf("%d",&num);
+  }
+  printf("Program ended.\n");
+  return 0;
+} //program to check if the number is even or odd
