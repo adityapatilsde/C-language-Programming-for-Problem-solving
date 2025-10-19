@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main () {
+  int runA = 0;
+  int runB = 10;
+  
+  while(runA <= runB) {
+    printf("Runner A at: %d, Runner B at: %d\n",runA,runB);
+    runA += 1;
+    runB -= 1;
+  } 
+  return 0;
+}
