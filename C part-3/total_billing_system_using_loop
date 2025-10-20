@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main() {
+  float total = 0;
+  float price;
+  scanf("%f", &price);
+  while (price != 0) {
+    total += price;
+    scanf("%f", &price);
+  }
+  printf("Total price of items purchased: %.2f\n", total);
+  return 0;
+}

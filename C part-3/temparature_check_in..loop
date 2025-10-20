@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdbool.h>
+
+int main() {
+    int temperature;
+    bool isValid = false;  
+    scanf("%d",&temperature);
+    while (!isValid) {
+        // Check if the temperature is in the valid range
+        if (temperature >= -30 && temperature <= 50) {
+          isValid = true;
+        } else {
+            // If invalid, prompt the user again
+            printf("Invalid input! Please enter a temperature between -30 and 50 degrees Celsius: ");
+            scanf("%d",&temperature);
+        }
+    }
+
+    // Print the valid temperature received from the user
+    printf("Thank you! Your valid temperature is: %d°C\n", temperature);
+
+    return 0;
+}
