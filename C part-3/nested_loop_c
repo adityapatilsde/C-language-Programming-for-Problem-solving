@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main () {
+  int outer = 1 ;
+  int n;
+  int inner;
+  scanf("%d" ,&n);
+  while (outer <= n) {
+    printf("Counting from 1 to %d: ",outer);
+    inner = 1;
+    while (inner <= outer) {
+      printf("%d ", inner);
+      inner++;
+    }
+    printf("\n");
+    outer++;
+  }
+  return 0;
+}
