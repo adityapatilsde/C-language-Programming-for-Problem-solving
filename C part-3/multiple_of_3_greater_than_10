@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdbool.h>
+
+int main() {
+    bool flag = true;  // Initialize the flag as true
+    int number = 11;   
+    while (flag) {
+        printf("Checking: %d\n", number);
+
+        // Check if the number is a multiple of 3
+        if (number % 3 == 0) {
+            flag = false;  // Set flag to false to exit the loop once a multiple of 3 is found
+            printf("First multiple of 3 greater than 10 found: %d\n", number);
+        } else {
+            number++;  // Increment the number and check the next one
+        }
+    }
+
+    return 0;
+}
