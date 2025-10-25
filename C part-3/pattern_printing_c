@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+    int row = 1;       
+    int totalRows = 5; 
+
+    while (row <= totalRows) {
+        int column = 1; 
+        while (column <= row) {
+            printf("* ");
+            column++;     
+        }
+
+        printf("\n");      
+        row++;            
+    }
+
+    return 0;
+}
