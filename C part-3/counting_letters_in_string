@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    char text[] = "C0d3 C0d1ng";  
+    int i = 0;  
+    int digitCount = 0;  
+    while (text[i] != '\0') {  
+        if (text[i] >= '0' && text[i] <= '9') {
+            digitCount++;  
+        }
+        i++;
+    }
+    printf("Total digits: %d\n", digitCount);
+
+    return 0;
+}
