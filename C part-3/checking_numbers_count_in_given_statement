@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <string.h>
+#include <ctype.h>
+
+int main () {
+  char str [] = "fvuwfv456wdw8";
+  int i = 0;
+  int count = 0;
+  
+  while (str[i] != '\0') {
+    if (isdigit(str[i])) {
+      count++;
+    }
+    i++;
+  }
+  printf("Total digits: %d\n",count);
+  return 0;
+  
+}
